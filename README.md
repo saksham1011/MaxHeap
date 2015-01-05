@@ -5,7 +5,7 @@ Only UBHeap.cpp was written by me. Other files were given by my Professor Dr. Hu
 
 Implement the vector-based MaxHeap data structure in C++.
 
-What to do
+What to do:
 
 You are to write a C++ program that does the following:
 It keeps reading user's inputs, line by line. Each input line the user types is supposed to be in one of the following forms:
@@ -19,17 +19,24 @@ It keeps reading user's inputs, line by line. Each input line the user types is 
 
 Where:
 
-exit tells your program to quit
+exit tells your program to quit.
+
 heapname is an identifier (you can just think of it as a valid C++ variable name). For example, a, _a34, counter are all valid 
 variable names.
-[list of integers separated by space] is ... a list of integers separated by spaces, such as 3 8 -10 2 0
-[an integer] is any integer, such as 531 or -3
+
+[list of integers separated by space] is ... a list of integers separated by spaces, such as 3 8 -10 2 0.
+[an integer] is any integer, such as 531 or -3.
+
 new tells your program to create a new max-heap of integers, implemented using the UBHeap class (whose interface is given below).
+
 The heap contains all members of the given list of integers. If [list of integers separated by space] is empty, then an empty 
 heap is created.
+
 top heapname prints the top element of the heap named heapname. If the heap is empty, then Heap is Empty error is printed.
-pop heapname removes the maximum element from the heap without printing anything. If the heap is empty, thenHeap is Empty error 
+
+pop heapname removes the maximum element from the heap without printing anything. If the heap is empty, thenHeap is Empty error
 is printed.
+
 push heapname [an integer] inserts the integer into the heap.
 
 Here is a sample run of ubheap:
