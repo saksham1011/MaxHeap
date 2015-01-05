@@ -1,6 +1,8 @@
 MaxHeap
 =======
 
+Only UBHeap.cpp was written by me. Other files were given by my Professor Dr. Hung Ngo.
+
 Implement the vector-based MaxHeap data structure in C++.
 
 What to do
