@@ -55,6 +55,7 @@ Version 0.7, comes with NO WARRANTY
 10 2 9 -1 -3 
 
 > top a
+
 10
 
 > pop a
@@ -84,12 +85,16 @@ Version 0.7, comes with NO WARRANTY
 > pop a
 
 > top a
+
 ** ERROR **
-Heap is Empty
+
+> Heap is Empty
 
 > pop a
+
 ** ERROR **
-Heap is Empty
+
+> Heap is Empty
 
 > new b = 3 1 5 3 2
 
