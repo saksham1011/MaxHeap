@@ -6,7 +6,7 @@ Implement the vector-based MaxHeap data structure in C++.
 What to do
 
 You are to write a C++ program that does the following:
- It keeps reading user's inputs, line by line. Each input line the user types is supposed to be in one of the following forms:
+It keeps reading user's inputs, line by line. Each input line the user types is supposed to be in one of the following forms:
 
  new heapname = [list of integers separated by space]
  top heapname
@@ -31,39 +31,60 @@ is printed.
 push heapname [an integer] inserts the integer into the heap.
 
 Here is a sample run of ubheap:
+
 [HQN@mymachine] $ ubheap
+
 UBHeap: build and test a Heap data structure
 hqn
+
 Version 0.7, comes with NO WARRANTY
 
 > new a = 9 -1 10 2 -3
+
 > print a
 10 2 9 -1 -3 
+
 > top a
 10
+
 > pop a
+
 > push a 20
+
 > print a
 20 9 -3 -1 2 
+
 > top a
 20
 > pop a
+
 > pop a
+
 > pop a
+
 > pop a
+
 > print a
 -3 
+
 > pop a
+
 > top a
 ** ERROR **
 Heap is Empty
+
 > pop a
 ** ERROR **
 Heap is Empty
+
 > new b = 3 1 5 3 2
+
 > push b 3
+
 > print b
-5 3 3 1 2 3 
+5 3 3 1 2 3
+
 > top b
 5
+
 > exit
