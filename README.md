@@ -52,11 +52,11 @@ Version 0.7, comes with NO WARRANTY
 
 > print a
 
-10 2 9 -1 -3 
+> 10 2 9 -1 -3 
 
 > top a
 
-10
+> 10
 
 > pop a
 
@@ -64,11 +64,11 @@ Version 0.7, comes with NO WARRANTY
 
 > print a
 
-20 9 -3 -1 2 
+> 20 9 -3 -1 2 
 
 > top a
 
-20
+> 20
 
 > pop a
 
@@ -80,19 +80,19 @@ Version 0.7, comes with NO WARRANTY
 
 > print a
 
--3 
+> -3 
 
 > pop a
 
 > top a
 
-** ERROR **
+> ** ERROR **
 
 > Heap is Empty
 
 > pop a
 
-** ERROR **
+> ** ERROR **
 
 > Heap is Empty
 
@@ -102,10 +102,10 @@ Version 0.7, comes with NO WARRANTY
 
 > print b
 
-5 3 3 1 2 3
+> 5 3 3 1 2 3
 
 > top b
 
-5
+> 5
 
 > exit
