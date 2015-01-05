@@ -51,6 +51,7 @@ Version 0.7, comes with NO WARRANTY
 > new a = 9 -1 10 2 -3
 
 > print a
+
 10 2 9 -1 -3 
 
 > top a
@@ -61,10 +62,13 @@ Version 0.7, comes with NO WARRANTY
 > push a 20
 
 > print a
+
 20 9 -3 -1 2 
 
 > top a
+
 20
+
 > pop a
 
 > pop a
@@ -74,6 +78,7 @@ Version 0.7, comes with NO WARRANTY
 > pop a
 
 > print a
+
 -3 
 
 > pop a
@@ -91,9 +96,11 @@ Heap is Empty
 > push b 3
 
 > print b
+
 5 3 3 1 2 3
 
 > top b
+
 5
 
 > exit
